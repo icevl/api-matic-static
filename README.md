@@ -1,6 +1,6 @@
 [Apimatic](https://www.apimatic.io/) widget statics files generation for indexing in search robots
 
-### Deployment
+# How to use
 
 - cp .env.example .env
 - change .env APIMATIC_SITE config
@@ -12,6 +12,7 @@
 - upload *dist/sitemap.xml* to google search console
 
 
+*nginx config*
 ```
 map $http_user_agent $limit_bots {
      default 0;
