@@ -34,7 +34,7 @@ location /api {
     add_header Access-Control-Allow-Origin '*';
     index index.html;
 
-    rewrite ^/api$ /<any_starting_path>/.html break;
+    rewrite ^/api$ /<any_starting_path>/index.html break;
     rewrite ^/api(.*)$ $1 break;
 
     root /home/user/apimatic-static;
