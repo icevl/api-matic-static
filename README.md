@@ -1,3 +1,5 @@
+[Apimatic](https://www.apimatic.io/) widget statics files generation for indexing in search robots
+
 ### Deployment
 
 - cp .env.example .env
